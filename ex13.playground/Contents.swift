@@ -92,8 +92,8 @@ var myMutableArray2 = NSMutableArray(array : mySwiftArray2)
 var myNSArray2 = NSArray(array : mySwiftArray2)
 
 // 배열의 값 비교
-let myArray7 = [1,2,3,4,5]
-let myArray8 = [1,2,3,4,5]
+let myArray7 = [1, 2, 3, 4, 5]
+let myArray8 = [1, 2, 3, 4, 5]
 if myArray7 == myArray8 {
     print("값이 같음")
 }else{

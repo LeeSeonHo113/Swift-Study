@@ -12,9 +12,9 @@ let myDouble : Double = Double(myInt)
 let myInt2 : Int = Int(myFloat)
 
 // Int -> String
-let myString2: String = String(myInt)
+let myString2 : String = String(myInt)
 // String -> Int
-let myInt3: Int? = Int(myString)
+let myInt3 : Int? = Int(myString)
 
 // 안전하게 사용하기 위해서, 옵셔널 바인딩 if let
 if let newInt = Int(myString) {
@@ -49,7 +49,7 @@ var grandFafa : Person = Person()
 var fafa : Student = Student()
 var son : UnivStudent = UnivStudent()
 
-// is연산자 : 상속관계의 클래스 객체의 속성을 검사해 볼수 있다. 유전자 검사
+// is연산자 : 상속관계의 클래스 객체의 속성을 검사해 볼 수 있다. 유전자 검사
 grandFafa is Person
 grandFafa is Student
 grandFafa is UnivStudent
